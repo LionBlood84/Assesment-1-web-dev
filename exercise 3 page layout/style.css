@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #d3d3d3;
+  color: #000;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+header h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 18px;
+}
+
+nav a {
+  color: #00008b;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #0000ff;
+}
+
+.intro-wrapper {
+  padding: 0 16px 20px 16px;
+  overflow: hidden;
+}
+
+.float-right {
+  float: right;
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.intro-wrapper p {
+  margin-bottom: 16px;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-row {
+  display: flex;
+  width: 100%;
+  gap: 0;
+  line-height: 0;
+}
+
+.gallery-row img,
+.gallery-row video {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+
+.row-video {
+  height: 250px;
+}
+
+.row-video video {
+  flex: 3;
+  height: 250px;
+  object-fit: cover;
+}
+
+.row-video img {
+  flex: 2;
+}
+
+.row-three {
+  height: 230px;
+}
+
+.row-three img {
+  flex: 1;
+}
+
+.row-two {
+  height: 280px;
+}
+
+.row-two img:first-child {
+  flex: 3;
+}
+
+.row-two img:last-child {
+  flex: 2;
+}
